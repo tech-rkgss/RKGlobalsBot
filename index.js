@@ -90,7 +90,7 @@ async function handleMessage(sender, text) {
 // Mock client database check — replace with DB/API call
 async function checkIfClientExists(phone) {
   const registeredClients = {
-    "919876543210": true,
+    "917219685266": true,
     "918888888888": true,
   };
 
@@ -157,3 +157,4 @@ async function addToGoogleSheet(data) {
 app.listen(PORT, () => {
   console.log(`🚀 Webhook server running at http://localhost:${PORT}`);
 });
+
